@@ -1,0 +1,174 @@
+.logo-img{
+    border-radius: 50%;
+    margin-top: -5px;
+    box-shadow: 0 0 3px black;
+}
+
+/*------Landing page----*/
+
+.landing-section{
+    background: white url("images/restruant.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: Berlin Sans FB Demi;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+
+/*----our special section---*/
+
+.features-item{
+    border-radius: 50px;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+.features-item:hover{
+    transform: scale(1.05,1.05);
+}
+#special img{
+   height: 200px;
+}
+
+
+/* About Section */
+
+.about {
+	padding: 0;
+	background: #f6f6f6;
+}
+.about h2::after {
+	bottom: 0;
+    margin-right:50px;
+    
+}
+.about .about-text {
+    padding: 80px 0;
+    font-family: Berlin Sans FB Demi;
+    margin-left: 70px;
+    
+}
+.about .about-img {
+	background: #444 url(images/about.jpg) center center no-repeat;
+	background-size: cover;
+	height: 570px;
+}
+
+.about p {
+	line-height: 24px;
+    margin: 15px 0 30px;
+    font-style: inherit;
+    
+}
+
+
+/* Menu Section */
+.restaurant-menu {
+    padding: 50px 0 60px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*.restaurant-menu img {
+	width: 300px;
+	box-shadow: 15px 0 #a7c44c;
+}
+*/
+.restaurant-menu h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.restaurant-menu .menu-section hr {
+	margin: 0 auto;
+}
+.restaurant-menu .menu-section {
+	margin: 0 20px 80px;
+}
+.restaurant-menu .menu-section-title {
+	font-size: 32px;
+	display: block;
+	font-weight: 400;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+.restaurant-menu .menu-item {
+	margin: 45px 0;
+	font-size: 18px;
+}
+.restaurant-menu .menu-item-name {
+	font-weight: 400;
+	font-size: 20px;
+	color: #444;
+	margin-bottom: 10px;
+}
+.restaurant-menu .menu-item-description {
+	font-size: 15px;
+	width: 85%;
+}
+.restaurant-menu .menu-item-price {
+	float: right;
+	font-weight: 400;
+	color: #555;
+	margin-top: -36px;
+}
+/* Gallery Section */
+
+.gallery{
+    text-align: center;
+    margin: 20px 0;
+}
+.gallery-image:hover{
+    box-shadow: 0 0 10px darkred;
+    border-radius: 10px;
+}
+.gallery-zoom{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.gallery-image p{
+    color: darkred;
+    margin: 10px;
+}
+
+/*----cheef section----*/
+.team-chef{
+   margin-left: 100px;
+   }
+.chef p{
+    font-family: Berlin Sans FB Demi;
+    font-size: 20px;
+}
+/*contact section*/
+.contact-item{
+    font-family: Times New Roman;
+    font-size: larger;
+}
+
+ 
+
+
+/*footer section*/
+.main-footer{
+    background: linear-gradient(45deg,#9c5a4d,darkslategray,#9c5a4d);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+.main-footer a{
+    color: lightsalmon;
+}
+
+   
